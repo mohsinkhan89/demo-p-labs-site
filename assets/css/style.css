@@ -9873,6 +9873,19 @@ Pages - My Account
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
     z-index: 1;
 }
+.top-banner-text.product.left {
+    border-color: none;
+    border-style: none;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color) 100%);
+    clip-path: polygon(0% 0, 80% 0, 100% 100%, 0% 100%);
+    z-index: 1;
+}
 .top-banner-text {
     display: flex;
     flex-direction: column;
@@ -9889,6 +9902,10 @@ Pages - My Account
     right: 100px;
     width: 600px;
     height: 400px;
+}
+.top-banner-text.product.left .pro-div {
+    left: 100px;
+    right: 0px;
 }
 .top-banner-text.product .pro-div img {
     height: 100%;
@@ -10188,35 +10205,34 @@ footer .footer-bottom span, footer .footer-bottom p {
     bottom: -20px;
     z-index: 99;
 }
-.marquee {
+.swiper-tiker {
+  position: relative;
+}
+.swiper-tiker .swiper {
   position: absolute;
   width: 100%;
   background: var(--primary-color);
   color: #fff;
-  bottom: 20px;
-  font-size: 25px;
+  bottom: 0px;
   overflow: hidden;
-  padding: 10px 0px;
+  padding: 20px 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  z-index: 9;
 }
-.marquee marquee {
-  width: calc((100% / 3) - 10px);
-  padding-right: 20px;
-  border-right: 2px solid white;
+.icon-tiker-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
-.marquee marquee:last-child {
-  border-right: none;
+.icon-tiker-content i {
+  font-size: 25px;
 }
 
-.marquee i {
-    font-size: 20px;
-}
-.product-area .product {
-  /* padding: 0px!important; */
-}
 .product-area .product img {
   border-radius: 10px 10px 0px 0px;
 }
