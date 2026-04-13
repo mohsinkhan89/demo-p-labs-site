@@ -2420,24 +2420,28 @@ body.offcanvas-open {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
+  width: 110px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-decoration: none;
   /* color: #ffffff; */
-  color: var(--primary-color);
+  color: var(--white-color);
   border-radius: 5px;
   /* background-color: #707070; */
-  background-color: var(--black-color);
-  font-size: 24px;
+  background-color: var(--primary-color);
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid transparent;  
 }
 .product .actions .action + .action {
   margin-left: 10px;
 }
 .product .actions .action:hover {
-  color: #fff;
-  background: #69bfb2;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
 }
 .product .actions .action.active {
   background: #69bfb2;
