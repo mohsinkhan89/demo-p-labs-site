@@ -113,7 +113,7 @@
         speed: 2000,
         effect: "fade",
         autoplay: {
-            delay: 7000,
+            delay: 9000,
             disableOnInteraction: false,
         },
         // Navigation arrows
@@ -428,6 +428,38 @@
             },
             1200: {
                 slidesPerView: 4,
+            },
+        },
+    });
+
+     var swiper = new Swiper(".trstimonial-area .swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        speed: 1500,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            478: {
+                slidesPerView: 1,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
             },
         },
     });
