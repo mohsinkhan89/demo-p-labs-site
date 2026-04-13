@@ -10243,3 +10243,34 @@ footer .footer-bottom span, footer .footer-bottom p {
     background: rgba(103, 193, 179, 0.1);
   }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .fashion-area {
+    height: 355px;
+  }
+  .header-slide-cate .swiper-button-next:after, .header-slide-cate .swiper-button-prev:after {
+    font-size: 15px;
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+  }
+  .hero-slide-image {
+    bottom: 100px;
+    left: 40px;
+  }
+}
+@media only screen and (min-width: 920px) and (max-width: 1550px) {
+  .fashion-area {
+    height: 355px;
+  }
+  .header-slide-cate .swiper-button-next:after, .header-slide-cate .swiper-button-prev:after {
+    font-size: 15px;
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+  }
+  .hero-slide-image {
+    bottom: 100px;
+    left: 40px;
+  }
+}
